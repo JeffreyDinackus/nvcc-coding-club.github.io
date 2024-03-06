@@ -10,7 +10,7 @@ function Form() {
           <div className="field">
             <label className="label">Name</label>
             <div className="control">
-              <input className="input" type="text" placeholder="Your name" />
+              <input className="input" name="username" type="text" placeholder="Your name" />
             </div>
           </div>
 
@@ -19,7 +19,7 @@ function Form() {
           <div className="field">
             <label className="label">Email</label>
             <div className="control has-icons-left has-icons-right">
-              <input className="input is-danger" type="email" placeholder="Please use NVCC email if you wish to be a member" />
+              <input className="input is-danger" type="email" name="email" placeholder="Please use NVCC email if you wish to be a member" />
               <span className="icon is-small is-left">
                 <i className="fas fa-envelope"></i>
               </span>
@@ -34,11 +34,11 @@ function Form() {
             <label className="label">Subject</label>
             <div className="control">
               <div className="select">
-                <select>
-                  <option>Select dropdown</option>
-                  <option>I want to be a member</option>
-                  <option>General Comments</option>
-                  <option>Other</option>
+                <select name="message-type">
+                  <option value="unselected">Select dropdown</option>
+                  <option value="membership-request">I want to be a member</option>
+                  <option value="comment" >General Comments</option>
+                  <option value="other" >Other</option>
                 </select>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Form() {
           <div className="field">
             <label className="label">Message</label>
             <div className="control">
-              <textarea className="textarea" placeholder="Your message"></textarea>
+              <textarea className="textarea" name="message" placeholder="Your message"></textarea>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ function Form() {
             <div className="control">
               <button className="button is-link" type='submit'>Submit</button>
             </div>
-          </div></form></div>
+          </div></form ></div >
     </>
   )
 }
