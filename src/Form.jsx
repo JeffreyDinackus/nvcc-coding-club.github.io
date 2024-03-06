@@ -4,7 +4,7 @@ function Form() {
   return (
     <>
       <div className="has-background-danger container is-fluid py-3">
-        <form action="https://getform.io/f/lajnnjqa" id="form" className=''>
+        <form action="https://getform.io/f/lajnnjqa" method="POST" id="form" className=''>
 
 
           <div className="field">
