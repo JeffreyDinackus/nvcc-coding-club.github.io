@@ -12,6 +12,7 @@ body {
   height: 10%;
   color: white;
   background-color: gray;
+  max-width: 100%;
 }
 
 .img-officer {
