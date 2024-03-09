@@ -61,7 +61,7 @@ function App() {
 
 
 
-    console.log(count, final, prev, prevprev)
+    // console.log(count, final, prev, prevprev)
     setCount(500 + final)
 
 
