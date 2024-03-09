@@ -10,12 +10,21 @@ body {
 
 
 .the_button {
-  height: 10%;
-  color: white;
-  background-color: gray;
+  height: 3em;
   max-width: 100%;
   white-space: normal;
 }
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  /* center horizontally */
+}
+
+.wordwrap {
+  word-wrap: break-word;
+}
+
 
 .img-officer {
   margin-left: auto;

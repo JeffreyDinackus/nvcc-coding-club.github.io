@@ -33,10 +33,10 @@ function Officers() {
   const listItems = posts.map(a => <div key={a.id}><h1 className="is-size-2">{a.name}</h1>
     <p key={`role_${a.id}`} className='is-size-4'>{a.role}</p>
 
-    <img src={a.img} className='image img-officer' alt={a.alt} />
-    <p key={`content_${a.id}`} className='is-size-4'>{a.content}</p>
-    <p key={`linkedin_${a.id}`} className='is-size-4'><a href={a.linkedin}>{a.linkedin}</a></p>
-    <p key={`github_${a.id}`} className='is-size-4'><a href={a.github}>{a.github}</a></p>
+    <img src={a.img} className='image img-officer wordwrap' alt={a.alt} />
+    <p key={`content_${a.id}`} className='is-size-4 wordwrap'>{a.content}</p>
+    <p key={`linkedin_${a.id}`} className='is-size-4 wordwrap'><a href={a.linkedin}>{a.linkedin}</a></p>
+    <p key={`github_${a.id}`} className='is-size-4 wordwrap'><a href={a.github}>{a.github}</a></p>
 
 
 
