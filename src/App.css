@@ -7,12 +7,6 @@ body {
   padding: 0px;
 }
 
-.navbar,
-div {
-  overflow: clip;
-  /* required */
-}
-
 .the_button {
   height: 3em;
   max-width: 100%;
