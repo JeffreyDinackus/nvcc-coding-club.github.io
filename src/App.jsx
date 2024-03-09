@@ -99,7 +99,7 @@ function App() {
           <p className="main-text is-size-4 has-text-light">Officers are fairly elected by all club members at the election meeting.</p>
         </div>
         <div className="column has-background-light is-fluid">
-          <button data-text="This uses a fibbonacci sequence" className="tooltip button is-danger animate__animated the_button is-size-4" style={{ margin: "40px" }} onClick={animate}>{count} club members!</button>
+          <button data-text="This uses a fibbonacci sequence" className="tooltip button is-danger animate__animated the_button is-size-4" style={{ margin: "40px" }} onClick={animate}>{count} coding club members!</button>
           <p className='main-text text-center is-size-4'>Fun fact! This button counts up in a fibbonacci sequence!</p>
           <p className=' main-text text-center is-size-4'>Want to become a member? Fill out the form below or contact us on Linkedin.</p>
           <div className="buttons is-centered">
