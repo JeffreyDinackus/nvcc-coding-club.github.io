@@ -17,7 +17,7 @@ function Officers() {
       id: 4, name: 'Alait Mesfune', role: 'Curent Secretary', content: 'Alait is a beginner programmer and the secretary for the club, he mainly handle the communications and announcements to members.', linkedin: 'https://www.linkedin.com/in/alait-mesfune-9901b726b/', github: 'https://github.com/tiala32', img: alait, alt: 'Alait\'s Picture'
     },
 
-    { id: 5, name: 'Jeffrey Dinackus', role: 'Former President', content: 'Jeffrey was the president for Summer 2023, he since graduated NVCC and got a job as a systems administrator. He\'s also the person who built the website you are current browsing.', linkedin: 'https://www.linkedin.com/in/jeffdinackus/', github: 'https://github.com/jeffreydinackus', img: jeff, alt: 'Jeff\s Pic' },
+    { id: 5, name: 'Jeffrey Dinackus', role: 'Former President', content: 'Jeffrey was the president for Summer 2023, he since graduated NVCC and got a job as a systems administrator. He\'s also the person who built the website you are currently browsing.', linkedin: 'https://www.linkedin.com/in/jeffdinackus/', github: 'https://github.com/jeffreydinackus', img: jeff, alt: 'Jeff\s Pic' },
     { id: 6, name: 'Aren Waheed', role: 'Former President', content: 'Aren has graduated NVCC and now goes to Virginia Tech where he is close to graduating. He is still active in the club through discord.', linkedin: 'http://www.linkedin.com/in/arenwaheed', github: 'https://github.com/arenimations', img: aren, alt: '' },
 
 
